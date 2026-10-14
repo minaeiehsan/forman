@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="200" viewBox="0 0 640 200" role="img" aria-label="foreman">
+  <title>foreman</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b2433"/>
+      <stop offset="1" stop-color="#0f1520"/>
+    </linearGradient>
+    <linearGradient id="hat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd23f"/>
+      <stop offset="1" stop-color="#f5a623"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="640" height="200" rx="28" fill="url(#bg)"/>
+
+  <!-- terminal window -->
+  <rect x="40" y="62" width="120" height="104" rx="12" fill="#232f42" stroke="#3a4a63" stroke-width="2"/>
+  <circle cx="56" cy="78" r="4" fill="#ff5f57"/>
+  <circle cx="70" cy="78" r="4" fill="#febc2e"/>
+  <circle cx="84" cy="78" r="4" fill="#28c840"/>
+
+  <!-- plan: checked, checked, open -->
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M54 100 l5 5 l9 -10" stroke="#28c840" stroke-width="3.5"/>
+    <path d="M78 101 h64" stroke="#8ea3c0" stroke-width="5"/>
+    <path d="M54 122 l5 5 l9 -10" stroke="#28c840" stroke-width="3.5"/>
+    <path d="M78 123 h50" stroke="#8ea3c0" stroke-width="5"/>
+    <path d="M56 144 l7 -5 l-7 -5" stroke="#ffd23f" stroke-width="3.5"/>
+    <path d="M72 145 h14" stroke="#ffd23f" stroke-width="5"/>
+  </g>
+
+  <!-- hard hat -->
+  <path d="M58 58 a42 38 0 0 1 84 0 z" fill="url(#hat)"/>
+  <rect x="94" y="22" width="12" height="36" rx="6" fill="#ffe27a"/>
+  <rect x="44" y="54" width="112" height="12" rx="6" fill="#f5a623"/>
+
+  <!-- wordmark -->
+  <text x="196" y="112" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="64" font-weight="700" fill="#f4f6fa" letter-spacing="-1">foreman</text>
+  <text x="198" y="146" font-family="ui-sans-serif, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#8ea3c0">paste a work item · get a plan · say <tspan fill="#ffd23f" font-family="ui-monospace, Menlo, monospace">go</tspan></text>
+</svg>
